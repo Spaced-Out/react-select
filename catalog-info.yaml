@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-select
+  description: Testing, feedback and PRs for the new version are appreciated
+  annotations:
+    github.com/project-slug: Spaced-Out/react-select
+    backstage.io/techdocs-ref: dir:.
+  tags:
+  - nodejs
+  - react
+  links:
+  - url: https://github.com/Spaced-Out/react-select
+    title: GitHub Repository
+    icon: github
+spec:
+  type: library
+  lifecycle: production
+  owner: group:default/sense-engineering
+  system: system:default/other
